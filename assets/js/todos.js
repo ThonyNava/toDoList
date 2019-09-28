@@ -6,6 +6,7 @@ $("ul").on("click", "li", function(){
 
 // Click on X to delete To do
 $("ul").on("click", "span",function(e){
+    $(this).parent().toggleClass("inputOut");
     $(this).parent().fadeOut(500, function(){
         $(this).remove();
     });
