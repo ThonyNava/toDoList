@@ -67,7 +67,7 @@ li:nth-child(2n){
 input{
     border: none;
     border-bottom: 3px solid #fff;
-    padding: 13px 13px 10px 20px;
+    padding: 13px 13px 13px 20px;
     height: 40px;
     width: 100%;
     display: block;
@@ -88,7 +88,7 @@ input::placeholder {
 
 input:focus{
     border-bottom: 3px solid rgba(5, 117, 230, 0.5);
-    padding: 13px 13px 10px 20px;
+    padding: 13px 13px 13px 20px;
     height: 40px;
     outline: none;
     transition: 0.2s;
