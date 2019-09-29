@@ -22,12 +22,13 @@ body{
     min-height: 100vh;
     padding-left: 0.6rem;
     padding-right: 0.6rem;
+    align-items: flex-start;
 }
 
 .d-flexCC{
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     overflow: scroll;
 }
 
