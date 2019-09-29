@@ -1,8 +1,7 @@
 body{
     margin: 0;
-    padding-bottom: 5rem;
-    height: 100%;
     min-height: 100vh;
+    height: 100%;
     font-family: 'Roboto', sans-serif;
     background: #0575E6;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to top, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
@@ -20,6 +19,7 @@ body{
 }
 
 .containerMain{
+    min-height: 100vh;
     padding-left: 0.6rem;
     padding-right: 0.6rem;
 }
@@ -27,7 +27,8 @@ body{
 .d-flexCC{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    overflow: scroll;
 }
 
 .completed {
@@ -43,7 +44,7 @@ h1{
     font-size: 24px;
     font-weight: normal;
     background: #0575E6;  /* fallback for old browsers */
-            }
+}
 
 ul{
     margin: 0;
@@ -135,6 +136,7 @@ span{
 }
 
 .inputOut{
+    border: none;
     padding-top: 0px;
     padding-bottom: 0px;
     height: 0;
@@ -165,5 +167,4 @@ span{
     .mobileButton-clicked{
         color: #2980b9;
     }
-
 }
