@@ -22,7 +22,7 @@ body{
     min-height: 100vh;
     padding-left: 0.6rem;
     padding-right: 0.6rem;
-    align-items: flex-start;
+    align-items: flex-start!important;
 }
 
 .d-flexCC{
