@@ -60,14 +60,6 @@
 
         <style>
 
-            body{
-                margin: 0;
-                height: 100vh;
-                display: flex;
-                flex-direction: column;
-                overflow: hidden;
-            }
-
             .d-flexC{
                 display: flex;
                 justify-content: center;
@@ -79,16 +71,21 @@
             }
 
             .footerBox{
-                position: sticky;
-                margin-top: -55px;
+                position: fixed;
+                top: 100%;
+                -webkit-transform: translateY(-100%);
+                -ms-transform: translateY(-100%);
+                transform: translateY(-100%);
+
+                margin-top: 3px;
                 width: 100vw;
                 flex-direction: column-reverse;
             }
 
             .iconBoxCircle{
-                margin-bottom: -12px;
-                width: 24px;
-                height: 24px;
+                margin-bottom: -7px;
+                width: 14px;
+                height: 14px;
                 border-radius: 50%;
                 box-shadow: 0 0 12px rgba(255, 255, 255, 0.6);
                 position: relative;
@@ -103,7 +100,7 @@
             .footerBoxSolid{
                 box-shadow: 0px 8px 12px 12px rgba(255, 255, 255, 0.5);
                 border-radius: 50%/100% 100% 0 0;
-                padding: 20px 0 5px 0;
+                padding: 5px 0 5px 0;
                 width: 100vw;
                 position: relative;
                 border-color: #2C5364 transparent transparent transparent;
@@ -121,15 +118,13 @@
 
             .footerBox:hover .iconBoxCircle{
                 margin-bottom: -14px;
-                width: 26px;
-                height: 26px;
                 box-shadow: 0 0 12px rgba(255, 255, 255, 1);
                 transition: 0.3s linear;
             }
 
             .text-tn a{
                 font-family: Helvetica, sans-serif;
-                font-size: 18px;
+                font-size: 10px;
                 color: white;
                 text-decoration: none;
             }

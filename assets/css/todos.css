@@ -59,10 +59,12 @@ li {
     color: #666; 
     line-height: 40px;
     background: rgba(5, 117, 230, 0.005);
+    transition: 0.3s linear;
 }
 
 li:nth-child(2n){
     background: #fff;
+    transition: 0.3s linear;
 }
 
 input{
